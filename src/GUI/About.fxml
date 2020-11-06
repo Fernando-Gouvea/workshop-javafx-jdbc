@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox prefHeight="96.0" prefWidth="148.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <Label alignment="TOP_RIGHT" prefHeight="33.0" prefWidth="59.0" text="About">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="30.0" top="10.0" />
+         </opaqueInsets>
+      </Label>
+      <Label alignment="TOP_RIGHT" disable="true" prefHeight="19.0" prefWidth="130.0" text="JavaFx Aplication Demo.">
+         <opaqueInsets>
+            <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Label alignment="TOP_RIGHT" prefHeight="12.0" prefWidth="127.0" text="Luis Fernando Gouvea">
+         <font>
+            <Font name="System Italic" size="8.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
