@@ -55,6 +55,7 @@ public class DepartmentFormController implements Initializable{
 	
 	@FXML
 	public void onBtSaveAction(ActionEvent event) {
+
 		if (entity == null) {
 			throw new IllegalStateException("Entity was null");
 		}
@@ -77,6 +78,7 @@ public class DepartmentFormController implements Initializable{
 	}
 	
 	private void notifyDataChangeListeners() {
+
 		for (DataChangeListener listener : dataChangeListeners) {
 			listener.onDataChanged();
 		}
