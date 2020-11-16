@@ -30,3 +30,7 @@ buid/
 nbbuid/
 dist/
 nbdist/
+
+#Eclipse
+settings/
+
