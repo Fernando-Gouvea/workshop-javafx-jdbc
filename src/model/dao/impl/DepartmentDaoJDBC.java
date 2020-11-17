@@ -147,6 +147,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 	@Override
 	public List<Department> findAll() {
 
+
 		PreparedStatement st = null;
 		ResultSet rs = null;
 		try {
